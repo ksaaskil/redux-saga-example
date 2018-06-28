@@ -1,0 +1,35 @@
+{
+  "name": "testreduxsaga",
+  "version": "1.0.0",
+  "description": "Test React with Redux Saga",
+  "main": "index.js",
+  "author": "Kimmo Sääskilahti",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "dev": "webpack-dev-server --open",
+    "build": "webpack --mode=production"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1",
+    "react-redux": "^5.0.1",
+    "redux": "^3.6.0",
+    "redux-saga": "^0.16.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "html-webpack-plugin": "^3.2.0",
+    "json-loader": "^0.5.4",
+    "react-addons-test-utils": "^15.4.1",
+    "react-test-renderer": "^15.4.1",
+    "webpack": "^4.16.5",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.5"
+  }
+}
