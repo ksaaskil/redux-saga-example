@@ -1,5 +1,4 @@
-import { takeEvery } from 'redux-saga'
-import { call, put, take } from 'redux-saga/effects'
+import { call, put, take, takeEvery } from 'redux-saga/effects'
 import { incrementCounter, initFetch, stopUpdate, setError } from '../actions/middlewareActions'
 
 function resolvingPromise(returnValue, delayMs = 1000) {
