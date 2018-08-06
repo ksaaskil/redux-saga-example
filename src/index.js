@@ -5,9 +5,9 @@ import { createStore, applyMiddleware } from 'redux'
 import createSagaMiddleware from 'redux-saga'
 import { Provider } from 'react-redux'
 
-import allReducers from './reducers/allReducers'
-import rootSaga from './sagas/sagas'
-import Layout from "./components/Layout";
+import allReducers from './js/reducers/allReducers'
+import rootSaga from './js/sagas/sagas'
+import Layout from "./js/components/Layout";
 
 const app = document.getElementById('app')
 
